@@ -36,7 +36,6 @@
     <body>
         <canvas id="c"></canvas>
         <div class="info">Click to add gravity point.</div>
-    </body>
     <script>
     /**
  * requestAnimationFrame
@@ -535,7 +534,6 @@ Particle.prototype = (function(o) {
         bufferCtx.fillRect(0, 0, screenWidth, screenHeight);
         bufferCtx.restore();
 
-        // パーティクルをバッファに描画
         // for (i = 0, len = particles.length; i < len; i++) {
         //     particles[i].render(bufferCtx);
         // }
@@ -569,4 +567,5 @@ Particle.prototype = (function(o) {
 
 })();
 </script>
+    </body>
 </html>
